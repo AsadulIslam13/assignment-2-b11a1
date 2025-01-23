@@ -95,6 +95,7 @@
   }
    /*curriculum*/
    .curriculum {
+    background-image: url(/assets/bg.png);
     text-align: center;
     padding: 20px;
   }

@@ -27,7 +27,6 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    background-color: #ffffff;
     padding: 10px 20px;
   }
   
@@ -206,10 +205,6 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  .view-all:hover {
-    background-color: #0056b3;
   }
   /*footer*/
 footer {

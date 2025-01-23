@@ -1,3 +1,9 @@
+.kids{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 100px;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -16,3 +22,196 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+/*navber*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .home-link {
+    color: rgba(254, 163, 1, 1);
+  }
+  
+  .about-link {
+    color: rgba(1, 172, 253, 1);
+  }
+  
+  .facilities-link {
+    color: #05D4DF;
+  }
+  
+  .admission-link {
+    color: #5D58EF;
+  }
+  .contact-btn {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  /*section hero*/
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .hero-text h1 {
+    font-size: 5rem;
+  }
+  .hero-text p{
+    
+    color: rgba(17, 17, 17, 1);
+  }
+  .emp{
+    color: rgba(254, 163, 1, 1);
+  }
+  .vis{
+    color: rgba(1, 172, 253, 1);
+  }
+  .hero-image img {
+    width: 600px;
+    height: 180;
+  }
+  .enroll-Now {
+    background-color: black;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+   /*curriculum*/
+   .curriculum {
+    text-align: center;
+    padding: 20px;
+  }
+  .curriculum .cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+  }
+  .card-1{
+    background-color: #DEF5FF;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: skyblue;
+  }
+  .card-2{
+    background: #FFF4DC;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .card-3{
+    background: #F2E8FF;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .btn-1{
+    color: #64C8FF;
+    border: 1px solid #64C8F;
+  }
+  .btn-2{
+    color: #F0AA00;
+  }
+  .btn-3{
+    color: #8700FF;
+  }
+  /*section stories*/
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .stories-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .stories-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .story {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .story img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .story-info {
+    padding: 15px;
+  }
+  
+  .date {
+    font-size: 0.85rem;
+    color: #888;
+  }
+  
+  .story h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .story p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .view-all {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-all:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  
